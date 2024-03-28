@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper h1 {
-  font-size: clamp(30px, 4vw, 50px);
+  font-size: clamp(30px, 8vw, 80px);
   padding: .5rem;
   margin-bottom: 2rem;
   text-align: center;
