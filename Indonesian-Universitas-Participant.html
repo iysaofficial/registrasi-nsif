@@ -119,37 +119,37 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
             </div>
 
             <div class="input-box">
-              <label for="NAMA_SEKOLAH" class="form-label"
-                >Nama Sekolah</label
+              <label for="NAMA_UNIVERSITAS" class="form-label"
+                >Nama Universitas</label
               >
-              <p>Noted : Masukan nama sekolah dengan format sesuai urutan nama ketua dan anggota tim asal sekolah masing - masing, dengan format seperti berikut :</p>
+              <p>Noted : Masukan nama universitas dengan format sesuai urutan nama ketua dan anggota tim asal universitas masing - masing, dengan format seperti berikut :</p>
               <h6>SMA CERIA</h6>
               <h6>SMA BAHAGIA</h6>
               <h6>SMA TADIKA MESRA</h6>
               <textarea
                 type="text"
-                id="NAMA_SEKOLAH"
-                name="NAMA_SEKOLAH"
+                id="NAMA_UNIVERSITAS"
+                name="NAMA_UNIVERSITAS"
                 class="form-control"
-                placeholder="Masukan Nama Sekolah/Universitas Anda"
+                placeholder="Masukan Nama Universitas Anda"
                 required
               ></textarea>
             </div>
 
             <div class="input-box">
-              <label for="NISN" class="form-label"
-                >NISN Leader & Member Tim
+              <label for="NIM" class="form-label"
+                >NIM Leader & Member Tim
               </label>
-              <p>Noted : Masukan NISN dengan sesuai urutan nama ketua dan anggota tim, dengan format seperti berikut :</p>
+              <p>Noted : Masukan NIM dengan sesuai urutan nama ketua dan anggota tim, dengan format seperti berikut :</p>
               <h6>231700</h6>
               <h6>241700</h6>
               <h6>251700</h6>
               <textarea
                 type="text"
-                id="NISN"
-                name="NISN"
+                id="NIM"
+                name="NIM"
                 class="form-control"
-                placeholder="Masukan NISN Ketua & Anggota Tim"
+                placeholder="Masukan NIM Ketua & Anggota Tim"
                 required
               ></textarea>
             </div>
@@ -182,14 +182,15 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
                 placeholder="Choose Grade"
                 required
               >
-                <option value="">--Pilih Jenjang Pendidikan Anda--</option>
+                <!-- <option value="">--Pilih Jenjang Pendidikan Anda--</option>
                 <option value="Sekolah Dasar">Sekolah Dasar</option>
                 <option value="Sekolah Menengah Pertama">
                   Sekolah Menengah Pertama
                 </option>
                 <option value="Sekolah Menengah Atas">
                   Sekolah Menengah Atas
-                </option>
+                </option> -->
+                <option value="Universitas">Universitas</option>
               </select>
             </div>
 
@@ -505,7 +506,7 @@ Mohon bersabar dan tunggu hingga 3 hari setelah waktu pendaftaran. Surat Penerim
 
     <script>
     const scriptURL =
-      'https://script.google.com/macros/s/AKfycbw9znYit905H4z2tqXNdTcRsrU4UjzZwOyq64bYIrU_-GwjktICe86A_5X0S3pHubizkQ/exec';
+      'https://script.google.com/macros/s/AKfycbyaVsKQ6UHQJIiv0lRsMXtaWwh7tru8o4fNva3H7ZY0byIT37dG5RbTm02GdvjVgl7rGA/exec';
     const form = document.forms['#'];
     
     form.addEventListener('submit', (e) => {
